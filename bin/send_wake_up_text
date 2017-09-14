@@ -1,0 +1,7 @@
+WORKING_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export ROOT_DIR="$(dirname "$WORKING_DIR")"
+
+SCRIPT=$ROOT_DIR/send_wake_up_text.py
+
+Python3 $SCRIPT
